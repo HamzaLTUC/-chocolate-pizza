@@ -1,0 +1,150 @@
+header img {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+}
+header div {
+    display: inline-block;
+    float:left;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+header h2{
+    margin-top: -5px;
+    margin-bottom: -4px;
+   font-family: 'Yesteryear', cursive;
+   font-size: 30px;
+   margin-left: 3px ;
+}
+header p {
+    margin-top: -5px;
+    font-size: small;
+    color: darkslategray;
+    margin-left: 2px;
+}
+nav img {
+    height: 24px;
+    width: 24px;
+    margin: 0px;
+    
+}
+nav li {
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-left: 1px;
+    
+}
+nav li:first-child {
+    margin-right: 229px;
+}
+nav li:nth-child(2){
+    margin-left: 4px;
+}
+main hr{
+    border: 2px black;
+    height: 10px;
+    background-image: url(../img/ansi-34.1.750x527-1_1563779696.png);
+    margin-left: 200px;
+    margin-right: 229px;
+}
+main{
+    display:inline-block;
+}
+main div h1{
+    display:inline-block;
+    margin-bottom: -30px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 200px;
+}
+main div p {
+margin-top:2px;
+margin-bottom:2px;
+color: gray;
+margin-left: 200px;
+}
+
+*{
+    list-style: none;
+}
+main div img {
+    display: inline-block;
+    float: right;
+    height: 16px;
+    width: 15px;
+    margin-top: 60px;
+    margin-right: 250px;
+}
+main img{
+    margin-left: 15%;
+}
+
+main p {
+    margin-left: 200px;
+    margin-right: 229px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: large;
+    color: rgb(80, 80, 80);
+}
+main form   {
+    background-image: url(../img/list-bg.png);
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    padding: 20px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+form div{
+    display: inline-block;
+    margin-left: 100px;
+    font-size: large;
+    font-family: cursive;
+    
+}
+form:nth-child(1){
+    display: inline-block;
+    float: right;
+   
+}
+ form div:nth-child(2) ul:nth-child(3) {
+     text-decoration: line-through;
+ }
+
+section img{
+    margin-left: 200px;
+    
+}
+section h3{
+    display: inline-block;
+    margin-top: 10px;
+    margin-block: initial;
+    float: right;
+    margin-right: 900px;
+}
+section p {
+    margin-left: 290px;
+    margin-top: -40px;
+}
+section h4{
+    display: inline-block;
+    float: right;
+    background-color: rgb(231, 53, 53);
+    color: white;
+    padding: 20px;
+    margin-top: -70px;
+    margin-right: 229px;
+}
+footer img {
+    margin-left: 600px;
+    margin-top: -110px;
+    
+}
+footer p {
+    margin-left: 500px;
+}
+footer hr {
+    margin-top: 110px;
+    
+}
