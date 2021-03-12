@@ -53,6 +53,8 @@ main hr{
 main{
     display:inline-block;
 }
+
+
 main div h1{
     display:inline-block;
     margin-bottom: -30px;
@@ -65,20 +67,20 @@ margin-bottom:2px;
 color: gray;
 margin-left: 200px;
 }
-
 *{
     list-style: none;
 }
 main div img {
-    display: inline-block;
+    display: inline;
     float: right;
     height: 16px;
     width: 15px;
-    margin-top: 60px;
-    margin-right: 250px;
+    margin-top: 71px;
+    margin-right: 262px;
 }
 main img{
     margin-left: 15%;
+    margin-top: 20px;
 }
 
 main p {
@@ -101,16 +103,21 @@ form div{
     margin-left: 100px;
     font-size: large;
     font-family: cursive;
+   color: grey;
     
+}
+form div li {
+    margin: 12px;
+    margin-left: -20px;
 }
 form:nth-child(1){
     display: inline-block;
     float: right;
    
 }
- form div:nth-child(2) ul:nth-child(3) {
-     text-decoration: line-through;
- }
+input[type=checkbox]:checked + label  {
+    text-decoration: line-through;
+  }
 
 section img{
     margin-left: 200px;
@@ -130,7 +137,7 @@ section p {
 section h4{
     display: inline-block;
     float: right;
-    background-color: rgb(231, 53, 53);
+    background-color: rgb(161, 57, 57);
     color: white;
     padding: 20px;
     margin-top: -70px;
@@ -143,8 +150,10 @@ footer img {
 }
 footer p {
     margin-left: 500px;
+    color: gray;
+    margin-bottom: 50px;
 }
 footer hr {
     margin-top: 110px;
     
-}
+
